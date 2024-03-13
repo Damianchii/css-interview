@@ -16,6 +16,7 @@
 > * * Attribute and pseudo-class selector - `a[href*="example.com"]{color: black}`
 > * * `a:hover {color: red;}` pseudo-classes
 > * Element selectors, pseudo-elements - these plot elements based on tag name or pseudo-elements, such as:
+> * * `<h1>` , `<h2>` , `<p>`
 > * * `::after`
 > * * `::before`
 
@@ -28,5 +29,8 @@
 > * * Selektora atrybutu i pseudoklasy - `a[href*="example.com"]{color: black}`
 > * * Pseudoklasy `a:hover {color: red;}`
 > * Selektory elementów, pseudoelementy - kreślają one elementy na podstawie nazwy tagu lub pseudoelementów, takich jak :
+> * * `<h1>` , `<h2>` , `<p>`
 > * * `::after`
 > * * `::before`
+
+## ➡️ 
