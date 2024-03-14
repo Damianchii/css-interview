@@ -54,4 +54,29 @@
 
 > `z-index` w CSS określa kolejność elementów wzdłuż osi z. Kontroluje, które elementy pojawią się na pierwszym planie, gdy zachodzi nakładanie się na siebie. stacking context jest tworzony, gdy element jest pozycjonowany (`relative`, `absolute` lub `fixed`) i ma wartość `z-index` inną niż `auto`, co powoduje utworzenie nowego kontekstu układania.
 
-## ➡️ 
+## ➡️ Describe BFC (Block Formatting Context) and how it works | Opisz BFC (Block Formatting Context) i jak on działa
+
+> BFC (Block Formatting Context) in CSS is a mechanism that defines how block-level elements are laid out and interact with each other within a container. It ensures encapsulation, clearance of floats, and predictable block-level element alignment.
+
+> BFC (Block Formatting Context) w CSS to mechanizm definiujący sposób układania elementów blokowych oraz ich interakcję wewnątrz kontenera. Zapewnia on izolację, usuwanie floatów oraz przewidywalne wyśrodkowanie elementów blokowych
+
+## ➡️ What are the various clearing techniques and which is appropriate for what context? | Jakie są różne techniki oczyszczania i która jest odpowiednia w jakim kontekście?
+> Currently, Grid and Flexbox techniques are preferred. "Floating" elements is becoming a thing of the past, while the "clearing" cleaning technique prevents problems related to `float` elements. For this we use, among others, `clear: both;`
+
+> Aktualnie preferowane są techniki z użyciem Grid i Flexbox. "Floatowanie" elementów przechodzi już w zapomnienie, natomiast technika czyszczenia "clearing" zapobiega powstawania problemom związanym z elementami `float`. Używamy do tego m.in `clear: both;`
+
+## ➡️ How would you approach fixing browser-specific styling issues? | Jak podszedłbyś do rozwiązywania problemów ze stylem specyficznych dla przeglądarki?
+
+> * Use libraries like Bootstrap that already handles these styling issues for you.
+> * Use `autoprefixer` to automatically add vendor prefixes to your code
+
+> * Użyj bibliotek takich jak Bootstrap, które już rozwiązują za Ciebie te problemy ze stylizacją.
+> * Użyj `autoprefixer`, aby automatycznie dodać `prefixy` do swojego kodu
+
+## ➡️ How do you serve your pages for feature-constrained browsers | Jak udostępniasz swoje strony w przeglądarkach z ograniczonymi funkcjami
+
+> * Graceful degradation — The practice of building an application for modern browsers while ensuring it remains functional in older browsers.
+> * Progressive enhancement — The practice of building an application for a base level of user experience, but adding functional enhancements when a browser supports it.
+
+> * Łagodna degradacja — praktyka tworzenia aplikacji dla nowoczesnych przeglądarek przy jednoczesnym zapewnieniu jej funkcjonalności w starszych przeglądarkach.
+> * Progresywne ulepszanie — praktyka budowania aplikacji na podstawowym poziomie doświadczenia użytkownika, ale dodawanie ulepszeń funkcjonalnych, jeśli obsługuje je przeglądarka.
