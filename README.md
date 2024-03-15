@@ -99,6 +99,9 @@
 ## ➡️ Have you used or implemented media queries or mobile specific layouts/CSS? | Czy korzystałeś lub wdrażałeś `media queries` lub układy/CSS dostosowane do urządzeń mobilnych?
 > Yes, i have. For example i'm transforming a stacked menu bar navigation into a fixed-bottom hamburger navigation
 
-> > Tak. Na przykład przekształcam skumulowaną nawigację na pasku menu w stałą nawigację po hamburgerze
+> Tak. Na przykład przekształcam skumulowaną nawigację na pasku menu w stałą nawigację po hamburgerze
 
-## ➡️ Are you familiar with styling SVG?
+## ➡️ Are you familiar with styling SVG? | Czy jesteś oznajomiony z SVG ?
+
+> Yes, I use it a lot for icons
+> Tak, często uzywam go do ikon
