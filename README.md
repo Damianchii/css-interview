@@ -104,4 +104,5 @@
 ## ➡️ Are you familiar with styling SVG? | Czy jesteś oznajomiony z SVG ?
 
 > Yes, I use it a lot for icons
+> 
 > Tak, często uzywam go do ikon
