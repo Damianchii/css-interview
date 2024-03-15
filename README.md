@@ -80,3 +80,24 @@
 
 > * Łagodna degradacja — praktyka tworzenia aplikacji dla nowoczesnych przeglądarek przy jednoczesnym zapewnieniu jej funkcjonalności w starszych przeglądarkach.
 > * Progresywne ulepszanie — praktyka budowania aplikacji na podstawowym poziomie doświadczenia użytkownika, ale dodawanie ulepszeń funkcjonalnych, jeśli obsługuje je przeglądarka.
+
+## ➡️ What are the different ways to visually hide content (and make it available only for screen readers) | Jakie są różne sposoby wizualnego ukrywania treści ?
+
+> We can visually hide content by:
+> * `visibility: hidden` 
+> * `display: none;`
+> Możemy wizualnie ukryć zawartość poprzez:
+> * `visibility: hidden` 
+> * `display: none;`
+
+## ➡️ Have you ever used a grid system, and if so, what do you prefer? | Czy kiedykolwiek używałeś grid system, jesli tak , co wolisz ?
+> I used `flex` and `grid` even though `float` is supported by older browsers
+
+> Uzywałem `flex` i `grid` mimo ze `float` jest wspierany przez starsze przegladarki
+
+## ➡️ Have you used or implemented media queries or mobile specific layouts/CSS? | Czy korzystałeś lub wdrażałeś `media queries` lub układy/CSS dostosowane do urządzeń mobilnych?
+> Yes, i have. For example i'm transforming a stacked menu bar navigation into a fixed-bottom hamburger navigation
+
+> > Tak. Na przykład przekształcam skumulowaną nawigację na pasku menu w stałą nawigację po hamburgerze
+
+## ➡️ Are you familiar with styling SVG?
