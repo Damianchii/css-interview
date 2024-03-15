@@ -86,6 +86,7 @@
 > We can visually hide content by:
 > * `visibility: hidden` 
 > * `display: none;`
+
 > Możemy wizualnie ukryć zawartość poprzez:
 > * `visibility: hidden` 
 > * `display: none;`
