@@ -104,5 +104,40 @@
 ## ➡️ Are you familiar with styling SVG? | Czy jesteś oznajomiony z SVG ?
 
 > Yes, I use it a lot for icons
-> 
+
 > Tak, często uzywam go do ikon
+
+## ➡️ Can you give an example of an `@media` property other than `screen`? | Podaj przykad właściwości `@media` poza `screen`?
+
+> Oprócz `screen`, istnieje kilka innych typów `@media` w CSS. 
+> * `all` - style wewnątrz bloku `@media` all będą stosowane niezależnie od tego, czy strona jest wyświetlana na ekranie, drukowana czy oglądana na innym urządzeniu.
+``` bash
+@media all {
+  body {
+    background-color: lightgray;
+  }
+}
+```
+> * `print` - służy do stosowania stylów specyficznych dla drukowania
+
+``` bash
+@media print {
+  /* Style specyficzne dla drukowania */
+  body {
+    font-size: 12px;
+  }
+  /* itd. */
+}
+```
+> * `speech` - jest typem mediów w CSS, który jest stosowany do określania stylów dla urządzeń generujących mowę lub syntezę mowy, takich jak czytniki ekranowe.
+``` bash
+@media speech {
+  .hide-for-speech {
+    display: none;
+  }
+}
+```
+
+## ➡️ What are some of the "gotchas" for writing efficient CSS? | Jakie są "pułapki" w pisaniu wydajengo CSS ?
+> 
+
