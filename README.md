@@ -248,11 +248,85 @@
 > * `display: none` - Element jest całkowicie ukryty i nie zajmuje miejsca na stronie
 > * `display: flex` - Element jest wyświetlany jako element kontenerowy, który umożliwia łatwe zarządzanie układem jego dzieci
 
-## ➡️ 
-## ➡️ 
-## ➡️ 
-## ➡️ 
-## ➡️ 
-## ➡️ 
-## ➡️ 
-## ➡️ 
+## ➡️ What is the difference between inline and inline-block? | Jaka jest roznica pomiedzy `inline` a `inline-block`
+> `inline` - The element is displayed inline, starting from the current line of text, without starting a new line. Examples of inline elements are `<span>`, `<a>`, `<strong>`.
+
+> `inline-block` - The element is displayed like an inline element but retains block properties, such as the ability to set width and height. Examples of inline-block elements are `<img>`, `<button>`.
+
+> `inline` - Element jest wyświetlany w linii, zaczynając od bieżącej linii tekstu, bez rozpoczynania nowego wiersza. Przykładami elementów wyświetlanych inline są `<span>`, `<a>`, `<strong>`.
+
+> `inline-block` - Element jest wyświetlany jak element inline, ale zachowuje właściwości blokowe, takie jak możliwość ustawienia szerokości i wysokości. Przykładami elementów inline-block są `<img>`, `<button>`.
+
+## ➡️ What is the difference between the `nth-of-type()` and `nth-child()` selectors? | jaka jest róznica pomiedzy `nth-of-type()` i `nth-child()` ?
+
+> `nth-of-type()` - Selektor `nth-of-type()` wybiera elementy na podstawie ich pozycji względem innych elementów tego samego typu (tego samego tagu) w obrębie ich kontenera.
+Na przykład `div:nth-of-type(2)` wybierze drugi element `<div>` w obrębie jego kontenera.
+> `nth-child()` - Selektor `nth-child()` wybiera elementy na podstawie ich pozycji względem wszystkich dzieci swojego kontenera, niezależnie od ich typu (tagu).
+Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie od tego, czy jest to `<div>`, `<p>`, czy inny typ elementu.
+
+## ➡️ What is the difference between a relative, fixed, absolute and statically positioned element? | Jaka jest różncia miedzy `relative` , `fixed` `absolute` `static`?
+
+> <b>`static`</b>
+
+> * By default, HTML elements are statically positioned.
+> * Statically positioned elements are positioned according to the normal flow of the document.
+> * They are not affected by the top, right, bottom, or left properties.
+> * Changing these properties on statically positioned elements has no effect.
+
+> <b>`realtive`</b>
+
+> * Elements with position: relative; are positioned relative to their normal position in the document flow.
+> * They can be moved using the top, right, bottom, and left properties.
+> * However, their new position does not affect the positions of other elements in the document flow.
+
+> <b>`absolute`</b>
+
+> * Elements with position: absolute; are removed from the normal document flow.
+> * They are positioned relative to their closest positioned ancestor, if one exists; otherwise, they are positioned relative to the initial containing block.
+> * Absolute positioned elements are not affected by the position of other elements.
+> * They can be moved using the top, right, bottom, and left properties.
+
+> <b>`fixed`</b>
+
+> * Elements with position: fixed; are positioned relative to the viewport (the browser window).
+> * They do not move when the page is scrolled.
+> * Like absolute positioned elements, they are removed from the normal document flow.
+> * Fixed positioned elements can be moved using the `top`, `right`, `bottom`, and `left` properties.
+
+> <b>`static`</b>
+
+> *Domyślnie elementy HTML mają pozycjonowanie statyczne.
+> *Elementy statycznie pozycjonowane są rozmieszczane zgodnie z normalnym przepływem dokumentu.
+> *Nie są one zmieniane przez właściwości top, right, bottom ani left.
+> *Zmiana tych właściwości na elementach statycznie pozycjonowanych nie ma wpływu.
+
+> <b>`realtive`</b>
+
+> *Elementy z właściwością position: relative; są pozycjonowane względem ich normalnej pozycji w przepływie dokumentu.
+> *Mogą być przemieszczane za pomocą właściwości top, right, bottom i left.
+> *Jednak ich nowa pozycja nie wpływa na pozycje innych elementów w przepływie dokumentu.
+> <b>`absolute`</b>
+
+> *Elementy z właściwością position: absolute; są usuwane z normalnego przepływu dokumentu.
+> *Są one pozycjonowane względem ich najbliższego przodka, który ma ustawioną pozycję, jeśli taki istnieje; w przeciwnym razie są one pozycjonowane względem początkowego bloku zawierającego.
+> *Elementy pozycjonowane absolutnie nie są zmieniane przez pozycje innych elementów.
+> *Mogą być one przemieszczane za pomocą właściwości top, right, bottom i left.
+
+> <b>`fixed`</b>
+> *Elementy z właściwością position: fixed; są pozycjonowane względem widoku (okna przeglądarki).
+> *Nie przemieszczają się, gdy strona jest przewijana.
+> *Podobnie jak elementy pozycjonowane absolutnie, są one usuwane z normalnego przepływu dokumentu.
+> *Elementy pozycjonowane stałe mogą być przemieszczane za pomocą właściwości `top`, `right`, `bottom` i `left`.
+
+## ➡️ What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+
+## ➡️ Have you used CSS Grid?
+## ➡️ Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
+## ➡️ Have you ever worked with retina graphics? If so, when and what techniques did you use?
+## ➡️ Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
+## ➡️ How is clearfix css property useful?
+## ➡️ Can you explain the difference between px, em and rem as they relate to font sizing?
+## ➡️ Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class?
+## ➡️ What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
+## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other?
+## ➡️ What is the difference between fixed, fluid and responsive layouts?
