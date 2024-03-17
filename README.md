@@ -139,5 +139,33 @@
 ```
 
 ## ➡️ What are some of the "gotchas" for writing efficient CSS? | Jakie są "pułapki" w pisaniu wydajengo CSS ?
-> 
+> * Avoid Selectors That Are Too Broad - Overly broad selectors (e.g., *, `body` *) can cause unnecessary performance hits as they require more processing power for styling. Be specific with your selectors to target only the necessary elements.
+> * <b> Minimize the Use of `!important`</b> - While !important can override specificity, its excessive use can lead to specificity wars and make debugging and maintaining styles more difficult.
+> * <b>Reduce Nesting </b> - Deeply nested selectors increase specificity and can make CSS harder to read and maintain. Try to keep your CSS as flat as possible.
+> * <b>Use Shorthand Propertiesc </b> - Shorthand properties like `margin`, `padding`, `font`, etc., can help reduce the size of your CSS files and improve readability.
+> * <b>Optimize CSS Animations and Transitions</b> - Animations and transitions can be resource-intensive. Use hardware-accelerated properties (`transform` and `opacity`) and avoid animating properties that trigger layout reflows (`width`, `height`, etc.)
+> * <b>Reduce Redundancy with Preprocessors</b> - CSS preprocessors like Sass and LESS allow you to use variables, mixins, and functions, reducing redundancy in your stylesheets and making them easier to maintain.
+> * <b>Optimize Fonts</b> - Loading multiple fonts or large font files can slow down page rendering. Minimize the number of font files and their sizes, and consider using web-safe fonts or font subsets where possible.
+> * <b>Use CSS Grid and Flexbox</b> - CSS Grid and Flexbox provide powerful layout capabilities without the need for complex float-based layouts. They can lead to cleaner, more efficient CSS.
+> * <b>Optimize for Mobile</b> - Mobile devices often have limited resources, so it's essential to optimize your CSS for performance on smaller screens. Consider using media queries to serve different stylesheets or optimize existing styles for mobile.
+> * <b>Leverage Browser Developer Tools</b> - Use browser developer tools to profile and debug your CSS for performance issues. Tools like Chrome DevTools provide insights into rendering times and layout thrashing.
 
+> * Unikaj zbyt ogólnych selektorów - Zbyt ogólne selektory (np. *, body *) mogą powodować niepotrzebne spowolnienia wydajnościowe, ponieważ wymagają więcej mocy obliczeniowej do stylizacji. Bądź konkretny w wyborze selektorów, aby docelować tylko w niezbędne elementy.
+
+> * <b>Zminimalizuj użycie !important</b> - Choć !important może zastąpić specyficzność, jego nadmierne stosowanie może prowadzić do wojen specyficzności i sprawić, że debugowanie oraz utrzymanie stylów będą trudniejsze.
+
+> * <b>Zredukuj zagnieżdżenie</b> - Głęboko zagnieżdżone selektory zwiększają specyficzność i mogą sprawić, że CSS stanie się trudniejszy do czytania i utrzymania. Staraj się utrzymać swój CSS jak najpłaski.
+
+> * <b>Używaj skróconych właściwości</b> - Skrócone właściwości, takie jak margin, padding, font, itp., mogą pomóc zmniejszyć rozmiar plików CSS i poprawić czytelność.
+
+> * <b>Optymalizuj animacje i przejścia CSS</b> -  Animacje i przejścia mogą być zasobożerne. Używaj właściwości akcelerowane sprzętowo (transform i opacity) i unikaj animowania właściwości, które powodują reflowy układu (width, height, itp.).
+
+> * <b>Zredukuj powtarzalność za pomocą preprocesorów</b> - Preprocesory CSS, takie jak Sass i LESS, pozwalają na korzystanie z zmiennych, mieszanych i funkcji, zmniejszając powtarzalność w arkuszach stylów i ułatwiając ich utrzymanie.
+
+> * <b>Optymalizuj czcionki</b> -  Ładowanie wielu czcionek lub dużych plików czcionek może spowolnić renderowanie strony. Zminimalizuj liczbę plików czcionek i ich rozmiary oraz rozważ użycie czcionek internetowych lub ich podzbiorów, jeśli to możliwe.
+
+> * <b>Używaj CSS Grid i Flexbox</b> - CSS Grid i Flexbox zapewniają potężne możliwości układu bez konieczności stosowania złożonych układów opartych na floatach. Mogą prowadzić do czystszego i bardziej wydajnego CSS.
+
+> * <b>Optymalizuj pod kątem urządzeń mobilnych</b> -  Urządzenia mobilne często mają ograniczone zasoby, dlatego ważne jest zoptymalizowanie swojego CSS pod kątem wydajności na mniejszych ekranach. Rozważ stosowanie zapytań medialnych do dostarczania różnych arkuszy stylów lub optymalizację istniejących stylów pod kątem urządzeń mobilnych.
+
+> * <b>Wykorzystaj narzędzia deweloperskie przeglądarek</b> - Użyj narzędzi deweloperskich przeglądarek do profilowania i debugowania swojego CSS pod kątem problemów wydajnościowych. Narzędzia takie jak Chrome DevTools dostarczają informacji na temat czasów renderowania i problemów z układem.
