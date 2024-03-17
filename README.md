@@ -218,45 +218,8 @@
 > * `::first-letter` - Selects the first letter of the text inside the element
 > * `::selection` - This pseudo-element reaches the text fragment selected by the user
 > Pseudo-elementy w CSS pozwalają stylizować określone części zawartości lub struktury elementu.
-> Przykład:
-```bash
-p::before {
-  content: "→ ";
-  color: red;
-}
-```
 > * `::before`: Ten pseudo-element umożliwia wstawianie zawartości przed zawartością elementu. 
- ```bash
-p::before {
-  content: "→ ";
-  color: red;
-}
-```
 > * `::after` - Umożliwia wstawianie zawartosci po zawartoscia elementu
- ```bash
-p::before {
-  content: "-";
-  color: green;
-}
-```
-
 > * `::first-line` - Ten pseudo-element wybiera pierwszą linię tekstu wewnątrz elementu
- ```bash
-p::first-line {
-  font-weight: bold;
-}
-```
 > * `::first-letter` - Wybiera pierwszą literę tekstu wewnątrz elementu
- ```bash
-p::first-letter {
-  font-size: 150%;
-  float: left;
-}
-```
 > * `::selection` - Ten pseudo-element dociera do zaznaczonego przez użytkownika fragmentu tekstu
- ```bash
-::selection {
-  background-color: #ffcc00;
-  color: #333;
-}
-```
