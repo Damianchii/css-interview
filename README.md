@@ -223,3 +223,36 @@
 > * `::first-line` - Ten pseudo-element wybiera pierwszą linię tekstu wewnątrz elementu
 > * `::first-letter` - Wybiera pierwszą literę tekstu wewnątrz elementu
 > * `::selection` - Ten pseudo-element dociera do zaznaczonego przez użytkownika fragmentu tekstu
+
+## ➡️ Explain your understanding of the box model and how you would tell the browser in CSS to render your layout in different box models. | Wyjaśnij jak rozumiesz box-model i jak powiedziałbyś przegladarce zeby wyrenderwoala layout w innym box model
+>The box model in CSS describes the layout of elements on a web page as rectangular boxes. Each box consists of content, padding, border, and margin areas, which together determine the size and spacing of the element.
+
+> `box-sizing: content-box;` - Content-Box Model: In this model (the default), the width and height of an element apply only to its content area. Padding, border, and margin are added to the total dimensions of the element.
+
+> `box-sizing: border-box;` - Border-Box Model: In this model, the width and height of an element include the padding and border, but not the margin. This means that the content area is adjusted to accommodate padding and border, and the specified width and height include these areas.
+
+> Model pudełkowy (box model) w CSS opisuje układ elementów na stronie internetowej jako prostokątne pudełka. Każde pudełko składa się z obszaru zawartości, wypełnienia (padding), obramowania (border) i marginesu, które razem określają rozmiar i odstępy elementu.
+
+> `box-sizing: content-box;` - Model pudełkowy z zawartością (Content-Box) W tym modelu (domyślnym), szerokość i wysokość elementu dotyczą tylko jego obszaru zawartości. Wypełnienie, obramowanie i margines są dodawane do całkowitych wymiarów elementu.Czyli jesli damy width: 200px to sama zawartosc (`content`) bedzie miała 200px, do tego dodajemy `padding` `margin` `border`.
+
+> `box-sizing: border-box;` - Model pudełkowy z obramowaniem (Border-Box) W tym modelu szerokość i wysokość elementu obejmują wypełnienie i obramowanie, ale nie margines. Oznacza to, że obszar zawartości jest dostosowany, aby pomieścić wypełnienie i obramowanie, a określona szerokość i wysokość obejmują te obszary. W tym przypadku jesli damy width 200px to cały `box` bedzie miał 200px lacznie z `margin` `border` `padding`
+
+## ➡️ What is the CSS `display` property and can you give a few examples of its use? | Co to jest właściwość `display` i podaj kilka przykładów ich użycia 
+>The CSS display property determines how an HTML element is displayed on the page.
+> * `display: block` - The element is displayed as a block, which takes up the full available width on the page and starts on a new line. Examples of block-level elements are `<div>`, `<p>`, `<h1>`-`<h6>`.
+> * `display: none` - The element is completely hidden and does not take up space on the page. 
+> * `display: flex` - The element is displayed as a flex container, allowing for easy management of its children's layout.
+
+> Właściwość CSS display określa sposób, w jaki element HTML jest wyświetlany na stronie. 
+> * `display: block` - Element jest wyświetlany jako blok, który zajmuje całą dostępną szerokość na stronie i zaczyna się od nowej linii. Przykładami blokowych elementów są `<div>`, `<p>`, `<h1>`-`<h6>`.
+> * `display: none` - Element jest całkowicie ukryty i nie zajmuje miejsca na stronie
+> * `display: flex` - Element jest wyświetlany jako element kontenerowy, który umożliwia łatwe zarządzanie układem jego dzieci
+
+## ➡️ 
+## ➡️ 
+## ➡️ 
+## ➡️ 
+## ➡️ 
+## ➡️ 
+## ➡️ 
+## ➡️ 
