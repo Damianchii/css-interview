@@ -295,28 +295,28 @@ Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie 
 
 > <b>`static`</b>
 
-> *Domyślnie elementy HTML mają pozycjonowanie statyczne.
-> *Elementy statycznie pozycjonowane są rozmieszczane zgodnie z normalnym przepływem dokumentu.
-> *Nie są one zmieniane przez właściwości top, right, bottom ani left.
-> *Zmiana tych właściwości na elementach statycznie pozycjonowanych nie ma wpływu.
+> * Domyślnie elementy HTML mają pozycjonowanie statyczne.
+> * Elementy statycznie pozycjonowane są rozmieszczane zgodnie z normalnym przepływem dokumentu.
+> * Nie są one zmieniane przez właściwości top, right, bottom ani left.
+> * Zmiana tych właściwości na elementach statycznie pozycjonowanych nie ma wpływu.
 
 > <b>`realtive`</b>
 
-> *Elementy z właściwością position: relative; są pozycjonowane względem ich normalnej pozycji w przepływie dokumentu.
-> *Mogą być przemieszczane za pomocą właściwości top, right, bottom i left.
-> *Jednak ich nowa pozycja nie wpływa na pozycje innych elementów w przepływie dokumentu.
+> * Elementy z właściwością position: relative; są pozycjonowane względem ich normalnej pozycji w przepływie dokumentu.
+> * Mogą być przemieszczane za pomocą właściwości top, right, bottom i left.
+> * Jednak ich nowa pozycja nie wpływa na pozycje innych elementów w przepływie dokumentu.
 > <b>`absolute`</b>
 
-> *Elementy z właściwością position: absolute; są usuwane z normalnego przepływu dokumentu.
-> *Są one pozycjonowane względem ich najbliższego przodka, który ma ustawioną pozycję, jeśli taki istnieje; w przeciwnym razie są one pozycjonowane względem początkowego bloku zawierającego.
-> *Elementy pozycjonowane absolutnie nie są zmieniane przez pozycje innych elementów.
-> *Mogą być one przemieszczane za pomocą właściwości top, right, bottom i left.
+> * Elementy z właściwością position: absolute; są usuwane z normalnego przepływu dokumentu.
+> * Są one pozycjonowane względem ich najbliższego przodka, który ma ustawioną pozycję, jeśli taki istnieje; w przeciwnym razie są one pozycjonowane względem początkowego bloku zawierającego.
+> * Elementy pozycjonowane absolutnie nie są zmieniane przez pozycje innych elementów.
+> * Mogą być one przemieszczane za pomocą właściwości top, right, bottom i left.
 
 > <b>`fixed`</b>
-> *Elementy z właściwością position: fixed; są pozycjonowane względem widoku (okna przeglądarki).
-> *Nie przemieszczają się, gdy strona jest przewijana.
-> *Podobnie jak elementy pozycjonowane absolutnie, są one usuwane z normalnego przepływu dokumentu.
-> *Elementy pozycjonowane stałe mogą być przemieszczane za pomocą właściwości `top`, `right`, `bottom` i `left`.
+> * Elementy z właściwością position: fixed; są pozycjonowane względem widoku (okna przeglądarki).
+> * Nie przemieszczają się, gdy strona jest przewijana.
+> * Podobnie jak elementy pozycjonowane absolutnie, są one usuwane z normalnego przepływu dokumentu.
+> * Elementy pozycjonowane stałe mogą być przemieszczane za pomocą właściwości `top`, `right`, `bottom` i `left`.
 
 ## ➡️ What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
 
