@@ -169,3 +169,94 @@
 > * <b>Optymalizuj pod kątem urządzeń mobilnych</b> -  Urządzenia mobilne często mają ograniczone zasoby, dlatego ważne jest zoptymalizowanie swojego CSS pod kątem wydajności na mniejszych ekranach. Rozważ stosowanie zapytań medialnych do dostarczania różnych arkuszy stylów lub optymalizację istniejących stylów pod kątem urządzeń mobilnych.
 
 > * <b>Wykorzystaj narzędzia deweloperskie przeglądarek</b> - Użyj narzędzi deweloperskich przeglądarek do profilowania i debugowania swojego CSS pod kątem problemów wydajnościowych. Narzędzia takie jak Chrome DevTools dostarczają informacji na temat czasów renderowania i problemów z układem.
+
+## ➡️ What are the advantages/disadvantages of using CSS preprocessors? | Jakie są korzyści i wady korzystania z preprocesorów CSS ?
+
+> Advantages
+> * <b>Increased Readability and Flexibility of Code</b> - Preprocessors allow the use of variables, functions, and nested selectors, which contribute to increased readability and flexibility of CSS code.
+> * <b>Ability to Use Mixins and Functions</b> -Preprocessors enable the definition of mixins and functions, facilitating the repeated application of style sets and making code management easier.
+> * <b>Ability to Divide Code into Modules</b> - Preprocessors make it easier to divide CSS code into modules, which facilitates managing large projects and collaboration among multiple developers.
+
+> Disadvantages
+
+> * <b>Additional Compilation Step</b> - Using preprocessors requires an additional compilation step to convert the code to plain CSS before deploying it to the server. This can add extra CPU overhead and prolong processing time.
+> * <b>Unnatural Approach for Beginners</b> - For beginners, the syntax and conventions used in preprocessors may be slightly more complex and harder to understand compared to plain CSS.
+> * <b>Need to Learn New Technology</b> - Using preprocessors requires learning new technology and familiarizing oneself with its syntax and capabilities, which can be time-consuming for developers already familiar with plain CSS.
+
+> Korzyści
+> * <b>Większona czytelność i elastyczność kodu</b> - Dzięki zastosowaniu preprocesorów możliwe jest używanie zmiennych, funkcji, a także zagnieżdżonych selektorów, co przyczynia się do zwiększenia czytelności i elastyczności kodu CSS.
+> * <b>Możliwość używania mixinów i funkcji</b> -  Preprocesory umożliwiają definiowanie mixinów i funkcji, co pozwala na wielokrotne stosowanie zestawów stylów oraz ułatwia zarządzanie kodem.
+> * <b>Możliwość dzielenia kodu na moduły</b> -  Dzięki preprocesorom łatwiej jest podzielić kod CSS na moduły, co ułatwia zarządzanie dużymi projektami i współpracę wielu programistów.
+
+> Wady
+> * <b> Dodatkowy etap kompilacji</b> - Korzystanie z preprocesorów wymaga dodatkowego kroku kompilacji kodu do zwykłego CSS przed umieszczeniem go na serwerze. Może to spowodować dodatkowe obciążenie procesora i wydłużyć czas pracy.
+> * <b>Podejście nienaturalne dla początkujących</b> - Dla osób początkujących, składnia i konwencje stosowane w preprocesorach mogą być nieco bardziej skomplikowane i trudniejsze do zrozumienia w porównaniu do zwykłego CSS.
+> * <b>Konieczność nauki nowej technologii</b> - Korzystanie z preprocesorów wymaga nauki nowej technologii i zapoznania się z jej składnią oraz możliwościami, co może być czasochłonne dla programistów, którzy są już zaznajomieni z czystym CSS.
+
+## ➡️ Explain how a browser determines what elements match a CSS selector. | Wyjaśnij jak przegladarka ustala jaki element pasuje do selektora w CSS
+
+>A browser determines which elements match a CSS selector by traversing the Document Object Model (DOM) of the web page
+> * <b>Selector Parsing</b> - Parsing the selector to understand its structure and components.
+> * <b>Starting at the Root</b> - Starting at the root of the DOM tree.
+> * <b>Traversing the DOM</b> - Iterating through each element in the DOM tree.
+> * <b>Matching</b> - Checking if each element matches the selector based on its tag name, class, ID, attributes, and pseudo-classes specified in the selector.
+> * <b>Applying Specificity and Inheritance</b> - Considering specificity and inheritance rules to determine the final styles applied to each matched element.
+
+> Przeglądarka określa, które elementy pasują do selektora CSS, przeglądając Model Obiektowy Dokumentu (DOM) strony internetowej.
+> * <b>  Analizę Selektora</b> - Analizę selektora w celu zrozumienia jego struktury i składników.
+> * <b> Rozpoczęcie od Korzenia</b> - Rozpoczęcie od korzenia drzewa DOM.
+> * <b> Przeglądanie DOM</b> - Przejście przez każdy element w drzewie DOM.
+> * <b> Dopasowywanie</b> - Sprawdzenie, czy każdy element pasuje do selektora na podstawie jego nazwy tagu, klasy, identyfikatora, atrybutów i pseudoklas określonych w selektorze.
+> * <b> Zastosowanie Specyficzności i Dziedziczenia</b> - Uwzględnienie zasad specyficzności i dziedziczenia w celu określenia końcowych stylów stosowanych do każdego dopasowanego elementu.
+
+## ➡️ Describe pseudo-elements and discuss what they are used for. | Opisz pesudo-element i przedyskutuj po co są używane 
+
+> Pseudo-elements in CSS allow you to style specific parts of an element's content or structure.
+> * `::before`: This pseudo-element allows content to be inserted before the element's content.
+> * `::after` - Allows you to insert content after the content of the element
+> * `::first-line` - This pseudo-element selects the first line of text within the element
+> * `::first-letter` - Selects the first letter of the text inside the element
+> * `::selection` - This pseudo-element reaches the text fragment selected by the user
+> Pseudo-elementy w CSS pozwalają stylizować określone części zawartości lub struktury elementu.
+> Przykład:
+```bash
+p::before {
+  content: "→ ";
+  color: red;
+}
+```
+> * `::before`: Ten pseudo-element umożliwia wstawianie zawartości przed zawartością elementu. 
+ ```bash
+p::before {
+  content: "→ ";
+  color: red;
+}
+```
+> * `::after` - Umożliwia wstawianie zawartosci po zawartoscia elementu
+ ```bash
+p::before {
+  content: "-";
+  color: green;
+}
+```
+
+> * `::first-line` - Ten pseudo-element wybiera pierwszą linię tekstu wewnątrz elementu
+ ```bash
+p::first-line {
+  font-weight: bold;
+}
+```
+> * `::first-letter` - Wybiera pierwszą literę tekstu wewnątrz elementu
+ ```bash
+p::first-letter {
+  font-size: 150%;
+  float: left;
+}
+```
+> * `::selection` - Ten pseudo-element dociera do zaznaczonego przez użytkownika fragmentu tekstu
+ ```bash
+::selection {
+  background-color: #ffcc00;
+  color: #333;
+}
+```
