@@ -318,21 +318,65 @@ Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie 
 > * Podobnie jak elementy pozycjonowane absolutnie, są one usuwane z normalnego przepływu dokumentu.
 > * Elementy pozycjonowane stałe mogą być przemieszczane za pomocą właściwości `top`, `right`, `bottom` i `left`.
 
-## ➡️ What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+## ➡️ What existing CSS frameworks have you used locally, or in production? How would you change/improve them? | Z jakich frameworków korzystałes ? 
 > I often use Tailwindcss in my projects. Otherwise I am familiar with bootstrap
 
 > Często korzystam z Tailwind css w moich projektach. Poza tym jestem zeznajomiony z Bootstrap
 
-## ➡️ Have you used CSS Grid?
+## ➡️ Have you used CSS Grid? | Używałeś CSS Grid ?
 > CSS Grid is used to design flexible, responsive, and precise web page layouts that adapt to various design needs and devices.
 
 > CSS Grid jest używany do projektowania elastycznych, responsywnych i precyzyjnych układów stron internetowych, które dostosowują się do różnych potrzeb projektowych i urządzeń.
-## ➡️ Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
-## ➡️ Have you ever worked with retina graphics? If so, when and what techniques did you use?
-## ➡️ Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
-## ➡️ How is clearfix css property useful?
-## ➡️ Can you explain the difference between px, em and rem as they relate to font sizing?
-## ➡️ Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class?
+## ➡️ Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy? | Czy możesz wytłumaczyć różnice między kodowaniem strony responsywnej a mobile-first ? 
+> <b>Responsive Design Stron Internetowych</b>
+> * Dostosowuje układ strony do różnych rozmiarów ekranu.
+> * Zazwyczaj zaczyna się od projektowania dla komputerów stacjonarnych i dostosowuje dla mniejszych ekranów za pomocą zapytań medialnych.
+
+> <b>Mobile-first</b>
+> * Priorytetowo traktuje projektowanie dla urządzeń mobilnych
+> * Rozpoczyna się od projektowania dla małych ekranów i stopniowo ulepsza dla większych
+> * Koncentruje się na prostocie, wydajności i priorytetowaniu istotnej zawartości dla użytkowników mobilnych
+
+## ➡️ Is there any reason you'd want to use `translate()` instead of `absolute` positioning, or vice-versa? And why? | Czy jest jakiś powód, dla którego chciałbyś używać funkcji translate() zamiast pozycjonowania bezwzględnego i odwrotnie? I dlaczego?
+
+> I would choose `translate()` instead of `absolute` in animations. Translate are often hardware-accelerated by browsers, leading to smoother animations and better performance compared to absolute positioning, especially on mobile devices.
+
+> And i would choose `absolute` when i need precise control over the exact position of an element relative
+
+> W animacjach wybrałbym opcję `translate()` zamiast `absolute`. Tłumacze są często przyspieszane sprzętowo przez przeglądarki, co zapewnia płynniejsze animacje i lepszą wydajność w porównaniu z pozycjonowaniem bezwzględnym, szczególnie na urządzeniach mobilnych.
+
+> Wybrałbym opcję `absolutną`, gdy potrzebuję precyzyjnej kontroli nad dokładnym położeniem elementu względnego
+
+## ➡️ How is `clearfix` css property useful? | Jak uzyteczny jest `clearfix` ?
+> Yes it WAS useful but now when we have `flex` and `grid` we dont need to use `float`. It prevents the container from collapsing when it contains only floated elements
+
+> Tak BYŁ użyteczny ale teraz gdy mamy `flex` i `grid` nie potrzebujemy używać `float`. Zapobiega to zapadaniu się kontenera, gdy zawiera tylko "floatowane" elementy
+
+## ➡️ Can you explain the difference between `px`, `em` and `rem` as they relate to font sizing? | czy potrafisz wyjasnic roznice pomiedzy `px` `em` i `rem` w odenisieniu do rozmiaru czcionki
+
+> <b>`px`</b>
+
+> * `px` to absolutna jednostka miary powszechnie stosowana w CSS.
+> * Określa rozmiar czcionki na podstawie ustalonej liczby pikseli, niezależnie od elementu nadrzędnego lub otaczających elementów.
+> * Rozmiary czcionek określone w pikselach nie zmieniają się względem preferowanych przez użytkownika ustawień rozmiaru czcionki w przeglądarce.
+
+> <b>`em`</b>
+
+> * `em` to jednostka miary względnej, oparta na rozmiarze czcionki elementu nadrzędnego.
+> * Gdy używana jest do określania rozmiaru czcionki, 1em jest równy rozmiarowi czcionki elementu nadrzędnego.
+> * Na przykład, jeśli rozmiar czcionki elementu nadrzędnego wynosi 16px, to 1em jest równy 16px.
+> * Rozmiary czcionek określone w em dostosowują się dynamicznie do zmian rozmiaru czcionki elementu nadrzędnego.
+
+> <b>`rem`</b>
+
+> * `rem` to jednostka miary względnej, oparta na rozmiarze czcionki elementu korzenia (html).
+> * Gdy używana jest do określania rozmiaru czcionki, 1rem jest równy rozmiarowi czcionki elementu korzenia.
+> * W przeciwieństwie do em, które jest względne do rozmiaru czcionki elementu nadrzędnego, rem zawsze jest względne do rozmiaru czcionki elementu korzenia.
+> * Rozmiary czcionek określone w rem są bardziej przewidywalne i łatwiejsze w zarządzaniu, szczególnie w skomplikowanych układach z wieloma zagnieżdżonymi elementami.
+
+## ➡️ Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class? | Czy możesz podać przykład pseudoklasy? Czy możesz podać przykładowy przypadek użycia pseudoklasy?
+
+
 ## ➡️ What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
 ## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other?
 ## ➡️ What is the difference between fixed, fluid and responsive layouts?
