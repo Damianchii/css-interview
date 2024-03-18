@@ -383,11 +383,17 @@ a:hover {
 }
 ```
 
-## ➡️ What is the difference between a block level element and an inline element. Can you provide examples of each type of element? | Jaka jest różnica między elementem blokowym a elementem wbudowanym. Czy możesz podać przykłady każdego typu elementu?
+## ➡️ What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
 
 > block level element always starts in new line with full `width` available. Examples  `<div>`, `<p>`, `<h1>`.
 
 > Inline level occupy only the necessary `width`, do not start on a new line. Examples `<span>`, `<a>`, `<strong>`.
+
+### Jaka jest różnica między elementem blokowym a elementem wbudowanym. Czy możesz podać przykłady każdego typu elementu?
+
+> element na poziomie bloku zawsze zaczyna się w nowej linii z dostępną pełną `width`. Przykłady `<div>`, `<p>`, `<h1>`.
+
+> Poziom inline zajmuje tylko niezbędną `width`, nie zaczynaj od nowej linii. Przykłady `<span>`, `<a>`, `<strong>`.
 
 ## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other?
 > CSS Grid is best suited for complex layouts involving both rows and columns, while Flexbox is great for aligning items within a single row or column.
