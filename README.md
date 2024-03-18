@@ -398,31 +398,37 @@ a:hover {
 
 ## ➡️ What is the difference between fixed, fluid and responsive layouts?
 > `fixed`
+
 > * The layout has fixed widths for its elements, typically specified in pixels.
 > * Elements do not change size regardless of the screen size or device used.
 > * The layout remains the same regardless of viewport size changes.
 
 > `fluid`
+
 > * The layout uses percentages for widths, allowing elements to resize relative to the viewport size.
 > * Elements expand or contract based on the size of the viewport.
 > * Provides some level of responsiveness but may not adapt optimally to all screen sizes.
 
 > `responsive`
+
 > * The layout adapts and responds to various screen sizes and devices.
 > * It employs a combination of flexible grids, media queries, and fluid elements to adjust the design based on viewport size.
 > * Elements may change their position, size, or visibility to provide the best user experience across different devices and screen resolutions.
 
 ### Jaka jest różnica między układami stałymi, płynnymi i responsywnymi?
+
 > `fixed`
 
 > * Układ ma stałe szerokości elementów, zazwyczaj określone w pikselach.
 > * Elementy nie zmieniają rozmiaru niezależnie od wielkości ekranu lub urządzenia.
 > * Układ pozostaje taki sam bez względu na zmiany wielkości widoku.
+
 > `fluid`
 
 > * Układ wykorzystuje procenty dla szerokości, pozwalając elementom zmieniać rozmiar w stosunku do wielkości widoku.
 > * Elementy rozszerzają się lub kurczą w zależności od wielkości widoku.
 > * Zapewnia pewien poziom responsywności, ale może nie dostosować się optymalnie do wszystkich wielkości ekranu.
+
 > `responsive`
 
 > * Układ dostosowuje się do różnych wielkości ekranów i urządzeń.
