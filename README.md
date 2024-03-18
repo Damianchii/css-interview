@@ -295,10 +295,10 @@ Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie 
 
 > <b>`static`</b>
 
-> * Domyślnie elementy HTML mają pozycjonowanie statyczne.
-> * Elementy statycznie pozycjonowane są rozmieszczane zgodnie z normalnym przepływem dokumentu.
-> * Nie są one zmieniane przez właściwości top, right, bottom ani left.
-> * Zmiana tych właściwości na elementach statycznie pozycjonowanych nie ma wpływu.
+> *Domyślnie elementy HTML mają pozycjonowanie statyczne.
+> *Elementy statycznie pozycjonowane są rozmieszczane zgodnie z normalnym przepływem dokumentu.
+> *Nie są one zmieniane przez właściwości top, right, bottom ani left.
+> *Zmiana tych właściwości na elementach statycznie pozycjonowanych nie ma wpływu.
 
 > <b>`realtive`</b>
 
@@ -310,7 +310,7 @@ Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie 
 > * Elementy z właściwością position: absolute; są usuwane z normalnego przepływu dokumentu.
 > * Są one pozycjonowane względem ich najbliższego przodka, który ma ustawioną pozycję, jeśli taki istnieje; w przeciwnym razie są one pozycjonowane względem początkowego bloku zawierającego.
 > * Elementy pozycjonowane absolutnie nie są zmieniane przez pozycje innych elementów.
-> * Mogą być one przemieszczane za pomocą właściwości top, right, bottom i left.
+> *Mogą być one przemieszczane za pomocą właściwości top, right, bottom i left.
 
 > <b>`fixed`</b>
 > * Elementy z właściwością position: fixed; są pozycjonowane względem widoku (okna przeglądarki).
@@ -319,8 +319,14 @@ Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie 
 > * Elementy pozycjonowane stałe mogą być przemieszczane za pomocą właściwości `top`, `right`, `bottom` i `left`.
 
 ## ➡️ What existing CSS frameworks have you used locally, or in production? How would you change/improve them?
+> I often use Tailwindcss in my projects. Otherwise I am familiar with bootstrap
+
+> Często korzystam z Tailwind css w moich projektach. Poza tym jestem zeznajomiony z Bootstrap
 
 ## ➡️ Have you used CSS Grid?
+> CSS Grid is used to design flexible, responsive, and precise web page layouts that adapt to various design needs and devices.
+
+> CSS Grid jest używany do projektowania elastycznych, responsywnych i precyzyjnych układów stron internetowych, które dostosowują się do różnych potrzeb projektowych i urządzeń.
 ## ➡️ Can you explain the difference between coding a web site to be responsive versus using a mobile-first strategy?
 ## ➡️ Have you ever worked with retina graphics? If so, when and what techniques did you use?
 ## ➡️ Is there any reason you'd want to use translate() instead of absolute positioning, or vice-versa? And why?
