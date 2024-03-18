@@ -376,7 +376,37 @@ Na przykład `div:nth-child(2)` wybierze drugie dziecko kontenera, niezależnie 
 
 ## ➡️ Can you give an example of a pseudo class? Can you provide an example use case for a pseudo class? | Czy możesz podać przykład pseudoklasy? Czy możesz podać przykładowy przypadek użycia pseudoklasy?
 
+> In this example, `:hover` is the pseudo-class.
+``` bash
+a:hover {
+  color: red;
+}
+```
 
-## ➡️ What is the difference between a block level element and an inline element. Can you provide examples of each type of element?
-## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other?
-## ➡️ What is the difference between fixed, fluid and responsive layouts?
+## ➡️ What is the difference between a block level element and an inline element. Can you provide examples of each type of element? | Jaka jest różnica między elementem blokowym a elementem wbudowanym. Czy możesz podać przykłady każdego typu elementu?
+
+> block level element always starts in new line with full `width` available. Examples  `<div>`, `<p>`, `<h1>`.
+
+> Inline level occupy only the necessary `width`, do not start on a new line. Examples `<span>`, `<a>`, `<strong>`.
+
+## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other? | Jaka jest różnica między CSS Grid a Flexbox? Kiedy użyłbyś jednego zamiast drugiego?
+> CSS Grid is best suited for complex layouts involving both rows and columns, while Flexbox is great for aligning items within a single row or column.
+
+> CSS Grid najlepiej sprawdza się w przypadku złożonych układów obejmujących zarówno wiersze, jak i kolumny, podczas gdy Flexbox świetnie nadaje się do wyśrodkowania elementów w jednym rzędzie lub kolumnie.
+
+## ➡️ What is the difference between fixed, fluid and responsive layouts? | Jaka jest różnica między układami stałymi, płynnymi i responsywnymi?
+
+> `fixed`
+> * The layout has fixed widths for its elements, typically specified in pixels.
+> * Elements do not change size regardless of the screen size or device used.
+> * The layout remains the same regardless of viewport size changes.
+
+> `fluid`
+> * The layout uses percentages for widths, allowing elements to resize relative to the viewport size.
+> * Elements expand or contract based on the size of the viewport.
+> * Provides some level of responsiveness but may not adapt optimally to all screen sizes.
+
+> `responsive`
+> * The layout adapts and responds to various screen sizes and devices.
+> * It employs a combination of flexible grids, media queries, and fluid elements to adjust the design based on viewport size.
+> * Elements may change their position, size, or visibility to provide the best user experience across different devices and screen resolutions.
