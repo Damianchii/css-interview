@@ -389,13 +389,14 @@ a:hover {
 
 > Inline level occupy only the necessary `width`, do not start on a new line. Examples `<span>`, `<a>`, `<strong>`.
 
-## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other? | Jaka jest różnica między CSS Grid a Flexbox? Kiedy użyłbyś jednego zamiast drugiego?
+## ➡️ What is the difference between CSS Grid and Flexbox? When would you use one over the other?
 > CSS Grid is best suited for complex layouts involving both rows and columns, while Flexbox is great for aligning items within a single row or column.
+
+### Jaka jest różnica między CSS Grid a Flexbox? Kiedy użyłbyś jednego zamiast drugiego?
 
 > CSS Grid najlepiej sprawdza się w przypadku złożonych układów obejmujących zarówno wiersze, jak i kolumny, podczas gdy Flexbox świetnie nadaje się do wyśrodkowania elementów w jednym rzędzie lub kolumnie.
 
-## ➡️ What is the difference between fixed, fluid and responsive layouts? | Jaka jest różnica między układami stałymi, płynnymi i responsywnymi?
-
+## ➡️ What is the difference between fixed, fluid and responsive layouts?
 > `fixed`
 > * The layout has fixed widths for its elements, typically specified in pixels.
 > * Elements do not change size regardless of the screen size or device used.
@@ -410,3 +411,20 @@ a:hover {
 > * The layout adapts and responds to various screen sizes and devices.
 > * It employs a combination of flexible grids, media queries, and fluid elements to adjust the design based on viewport size.
 > * Elements may change their position, size, or visibility to provide the best user experience across different devices and screen resolutions.
+
+### Jaka jest różnica między układami stałymi, płynnymi i responsywnymi?
+> `fixed`
+
+> * Układ ma stałe szerokości elementów, zazwyczaj określone w pikselach.
+> * Elementy nie zmieniają rozmiaru niezależnie od wielkości ekranu lub urządzenia.
+> * Układ pozostaje taki sam bez względu na zmiany wielkości widoku.
+> `fluid`
+
+> * Układ wykorzystuje procenty dla szerokości, pozwalając elementom zmieniać rozmiar w stosunku do wielkości widoku.
+> * Elementy rozszerzają się lub kurczą w zależności od wielkości widoku.
+> * Zapewnia pewien poziom responsywności, ale może nie dostosować się optymalnie do wszystkich wielkości ekranu.
+> `responsive`
+
+> * Układ dostosowuje się do różnych wielkości ekranów i urządzeń.
+> * Wykorzystuje kombinację elastycznych siatek, zapytań medialnych i płynnych elementów, aby dostosować projekt w zależności od wielkości widoku.
+> * Elementy mogą zmieniać swoje położenie, rozmiar lub widoczność, aby zapewnić najlepsze doświadczenie użytkownika na różnych urządzeniach i rozdzielczościach ekranu.
